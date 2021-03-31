@@ -4,10 +4,12 @@ import cv2
 from random import randrange
 
 
-#load some pretrained data mon face frontals from opencv(haar cascade algorithm)
+#load some pretrained data on face frontals from opencv(haar cascade algorithm)
 trained_face_data = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
 #chose an image to detect faces in
+#the below line of code is for testing with an image so ive commented it after it worked 
+
 #imread reads the image
 
 #img = cv2.imread('crap.jpg')
